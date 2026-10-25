@@ -3,6 +3,12 @@
 フォルダ内に散らばった複数のCSVファイルを、ワンクリックで1つに結合するExcel VBAツールです。
 「毎回手でコピペして集計している」「月末に部署ごとのCSVを1枚にまとめる作業がある」といった定型作業の自動化を想定しています。
 
+## ダウンロード
+
+**[⬇️ CSVMerge.xlsm をダウンロード](https://github.com/tndnkjp/csv-merge-tool/raw/main/CSVMerge.xlsm)**
+
+上のリンクをクリックするだけで、ブラウザが自動的にファイルをダウンロードします（gitの知識は不要です）。
+
 ## できること
 
 - 指定フォルダ内のすべての `.csv` を自動検出
@@ -14,7 +20,7 @@
 
 ## 使い方
 
-1. **`CSVMerge.xlsm` をダウンロードして開く**
+1. **[`CSVMerge.xlsm` をダウンロード](https://github.com/tndnkjp/csv-merge-tool/raw/main/CSVMerge.xlsm)して開く**
 2. 黄色いセキュリティバーが出たら「コンテンツの有効化」をクリック
    （出ない場合は下記FAQ参照）
 3. 「**CSVを結合する**」ボタンをクリック
