@@ -201,6 +201,11 @@ Private Function PickFolder() As String
     fd.Title = "結合したいCSVが入っているフォルダを選択してください"
     fd.AllowMultiSelect = False
 
+    ' 初期表示フォルダ：このブック（CSVMerge.xlsm）が置かれているフォルダを開く
+    If ThisWorkbook.Path <> "" Then
+        fd.InitialFileName = ThisWorkbook.Path & "\"
+    End If
+
     If fd.Show = -1 Then
         PickFolder = fd.SelectedItems(1)
     Else
