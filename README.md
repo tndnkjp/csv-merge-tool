@@ -109,6 +109,10 @@ Private Const INPUT_ENCODING As String = "utf-8"       ' 最近のWebサービ�
 
 MIT License - 商用・改変・再配布自由です。
 
+## サポートについて
+
+本ツールは無料で公開していますが、個別サポート・問い合わせ対応は行っておりません。不具合等はご自身でご確認・ご対応いただけますと幸いです。
+
 ## 作者
 
 天電輝合同会社 (TENDENKO) - https://tendenko.co.jp/
